@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691009565032",
+    "firebase_url": "https://bleyoklama.firebaseio.com",
+    "project_id": "bleyoklama",
+    "storage_bucket": "bleyoklama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691009565032:android:b6c51ab3179f2590",
+        "android_client_info": {
+          "package_name": "com.example.hmtteol.bleyoklama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691009565032-3uus2fkblb3o5b59hkei842l6bo8bgpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hmtteol.bleyoklama",
+            "certificate_hash": "bde0a4f96e5cae36cb03bc1478803215a25243d2"
+          }
+        },
+        {
+          "client_id": "691009565032-2d5qq91np99k8raki1pghc47v4ip4ind.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVAFLerh3-FW_bf45uPrCqdLS5Vd9ojuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691009565032-2d5qq91np99k8raki1pghc47v4ip4ind.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hmtteol.bleyoklama.transmitter">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="163dp"
+        android:layout_height="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/transmit"
+            android:layout_width="168dp"
+            android:layout_height="141dp"
+            android:background="@null"
+            android:elevation="23dp"
+            android:src="@drawable/transmit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="169dp"
+            android:layout_height="140dp"
+            android:background="@null"
+            android:elevation="2dp"
+            android:src="@drawable/stop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bilgi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/transmit"
+            android:editable="true"
+            android:text="TextView"
+            android:textAlignment="center"
+            tools:text="Yayın yap" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/yayinismi"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Yayın ismi giriniz"
+        android:inputType="text|textShortMessage|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>
